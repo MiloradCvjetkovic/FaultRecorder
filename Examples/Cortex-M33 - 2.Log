@@ -1,0 +1,32 @@
+
+--- Last recorded Fault information (v0.1) ---
+
+  Exception Handler: Non-Secure - MemManage fault
+  State:             Non-Secure
+  Mode:              Thread
+  Fault:             MemManage - Data access failure due to MPU violation or fault, fault address 0x2004D008
+
+   - PC:             0x08104E36
+   - MSP:            0x20047F78
+   - MSPLIM:         0x00000000
+   - PSP:            0x2004E030
+   - PSPLIM:         0x2004E000
+
+  Exception stacked state context:
+   - R0:             0x00000001
+   - R1:             0x00000003
+   - R2:             0x00000001
+   - R3:             0x00000000
+   - R12:            0x081090DD
+   - LR:             0x08105561
+   - ReturnAddress:  0x08104E36
+   - xPSR:           0x21000000
+
+  Fault registers:
+   - CFSR:           0x00000082
+   - HFSR:           0x00000000
+   - DFSR:           0x0000000B
+   - MMFAR:          0x2004D008
+   - BFAR:           0x00000000
+   - AFSR:           0x00000000
+

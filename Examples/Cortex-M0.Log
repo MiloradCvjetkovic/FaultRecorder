@@ -1,0 +1,20 @@
+
+--- Last recorded Fault information (v0.1) ---
+
+  Exception Handler: HardFault
+  Mode:              Thread
+
+   - PC:             0x080056A4
+   - MSP:            0x20001F60
+   - PSP:            0x20000740
+
+  Exception stacked state context:
+   - R0:             0x00000001
+   - R1:             0x00000000
+   - R2:             0x00000000
+   - R3:             0x00000000
+   - R12:            0x00000000
+   - LR:             0x08001405
+   - ReturnAddress:  0x080056A4
+   - xPSR:           0x01000000
+

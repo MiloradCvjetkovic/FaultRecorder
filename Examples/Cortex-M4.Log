@@ -1,0 +1,29 @@
+
+--- Last recorded Fault information (v0.1) ---
+
+  Exception Handler: UsageFault
+  Mode:              Thread
+  Fault:             UsageFault - Execution of undefined instruction
+
+   - PC:             0x08008190
+   - MSP:            0x20006F88
+   - PSP:            0x20002988
+
+  Exception stacked state context:
+   - R0:             0x00000001
+   - R1:             0x00000001
+   - R2:             0x00000001
+   - R3:             0x00000000
+   - R12:            0x08007CA1
+   - LR:             0x0800702B
+   - ReturnAddress:  0x08008190
+   - xPSR:           0x01000000
+
+  Fault registers:
+   - CFSR:           0x00010000
+   - HFSR:           0x00000000
+   - DFSR:           0x00000008
+   - MMFAR:          0xE000ED34
+   - BFAR:           0xE000ED38
+   - AFSR:           0x00000000
+
