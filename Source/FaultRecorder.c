@@ -122,7 +122,7 @@
 #endif
 
 // Armv8/8.1-M Mainline architecture related defines
-#if    (FR_ARCH_ARMV8x_M != 0)
+#if    (FR_ARCH_ARMV8x_M_MAIN != 0)
 #ifndef SAU_SFSR_LSERR_Msk
 #define SAU_SFSR_LSERR_Msk     (1UL << 7)               // SAU SFSR: LSERR Mask
 #endif
